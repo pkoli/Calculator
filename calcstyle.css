@@ -19,9 +19,9 @@ input[type="button"]
 {
     font-size:20;
     color:#005081;
-    width:auto;
-    height:auto;
-    padding:20px;
+    width:70px;
+    height:70px;
+    padding:auto;
     background:black;
 }
 h3
@@ -37,7 +37,7 @@ h5
 {
   font-size:30;
   color:#005081;
-  width:252px;
+  width:218px;
   height:55px;
 }
 table
