@@ -1,15 +1,14 @@
 <html>
+<link rel="stylesheet" type="text/css" href="calcstyle.css">
+<div id="container">
 <h3 align="center">Basic Calculator</h3>
 <FORM NAME="Calc">
-<TABLE BORDER=1 align="center">
+<TABLE  align="center">
 <TR>
 <TD>
-<INPUT TYPE="text"   NAME="Input" Size="16">
+<INPUT TYPE="text"  id="screen" NAME="Input" Size="16">
+<input type="button" name="delete" value="Del" OnClick="Calc.Input.value=Calc.Input.value.substring(0,Calc.Input.value.length-1)">
 <br>
-</TD>
-</TR>
-<TR>
-<TD>
 <INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
 <INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
 <INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
@@ -25,7 +24,7 @@
 <INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
 <INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
 <br>
-<INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<INPUT TYPE="button" NAME="clear" VALUE="  C  " OnClick="Calc.Input.value = ''">
 <INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
 <INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
 <INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
@@ -34,5 +33,6 @@
 </TR>
 </TABLE>
 </FORM>
-<h5 align="center" style="color:#005081;"><a href="about.html">pkoli apps</a></h5>
+<h5 align="center" style="color:#005081;"><a href="about.html">Apps @pkoli</a></h5>
+</div>
 </html>
