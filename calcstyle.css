@@ -19,22 +19,30 @@ input[type="button"]
 {
     font-size:20;
     color:#005081;
-    width:70px;
-    height:70px;
+    width:auto;
+    height:auto;
     padding:20px;
+    background:black;
 }
 h3
 {
   background:#005081;
   color:black;
 }
+h5
+{
+  padding:0;
+}
 #screen
 {
-  width:218px;
+  font-size:30;
+  color:#005081;
+  width:252px;
   height:55px;
 }
 table
 {
+  background:grey;
   padding:10px;
   width:auto;
   height:auto;

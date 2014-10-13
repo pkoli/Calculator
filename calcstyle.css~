@@ -6,7 +6,7 @@
 }
 body
 {
-  background:url("front.jpg") cover;
+  background:black;
   background-repeat:no-repeat;
 }
 a
@@ -14,21 +14,24 @@ a
   text-decoration:none;
   color:#005081;
 }
+
+input[type="button"]
+{
+    font-size:20;
+    color:#005081;
+    width:auto;
+    height:auto;
+    padding:20px;
+}
 h3
 {
-  color:#005081;
+  background:#005081;
+  color:black;
 }
 #screen
 {
-  width:188px;
+  width:218px;
   height:55px;
-}
-table Input
-{
-  font-size:20;
-  color:#005081;
-  width:60px;
-  height:60px;
 }
 table
 {
