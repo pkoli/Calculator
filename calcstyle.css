@@ -19,8 +19,8 @@ input[type="button"]
 {
     font-size:20;
     color:#005081;
-    width:80px;
-    height:80px;
+    width:70px;
+    height:70px;
     padding:20px;
 }
 h3
@@ -30,7 +30,7 @@ h3
 }
 #screen
 {
-  width:248px;
+  width:218px;
   height:55px;
 }
 table
