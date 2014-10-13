@@ -1,0 +1,39 @@
+*
+{
+  width:auto;
+  height:auto;
+}
+a
+{
+  text-decoration:none;
+  color:#005081;
+}
+h3
+{
+  color:#005081;
+}
+#screen
+{
+  width:188px;
+  height:55px;
+}
+table Input
+{
+  font-size:20;
+  color:#005081;
+  width:60px;
+  height:60px;
+}
+table
+{
+  padding:10px;
+  width:auto;
+  height:auto;
+}
+#container
+{
+  width:auto;
+  height:auto;
+  margin-top:50px;
+  margin-bottom:auto;
+}
